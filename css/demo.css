@@ -1,5 +1,8 @@
+@import url('bootstrap/css/bootstrap.min.css');
+
 body {
 	font-family: calibri, sans-serif;
+	line-height: 1;
 	font-size: 24px;
 	color: #444;
 	margin: 0;
@@ -65,4 +68,10 @@ body {
 	height: 400px;
 	clear: left;
 	padding: 20px;
+}
+.project-link {
+	text-align: center;
+}
+.repo-button {
+	font-size: 20px;
 }
