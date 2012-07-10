@@ -10,7 +10,7 @@ The jQuery Sticker plugin allows you to create elements that "stick" to the top 
 
 ## Dependencies ##
 
-* [jQuery][http://jquery.com] 1.4+
+* [jQuery](http://jquery.com) 1.4+
 * "Cowboy" Ben Alman's [jQuery throttle / debounce] (https://github.com/cowboy/jquery-throttle-debounce)
 
 ## Usage ##
