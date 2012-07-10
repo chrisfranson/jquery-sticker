@@ -1,0 +1,55 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Sticker Demo</title>
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="header">
+				<p>Fixed header</p>
+			</div>
+
+			<div class="left-column float-left">
+
+				<div class="no-stick">
+					<p>This shouldn't stick.</p>
+				</div>
+
+				<div class="sticker sticky">
+					<p>This should stick!</p>
+				</div>
+
+			</div>
+
+			<div class="main-column float-left">
+				<p>Main column</p>
+			</div>
+
+			<div class="right-column float-left sticky">
+				<p>This should also stick.</p>
+			</div>
+
+			<div class="footer">
+				<p>Footer</p>
+			</div>
+
+		</div>
+	</body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+	<script src="../jquery.sticker.js"></script>
+
+	<script>
+
+		$('.sticky').sticker({
+			yOffset: 40,
+			stopper: '.footer',
+			throttle: 15
+		});
+
+	</script>
+
+</html>
